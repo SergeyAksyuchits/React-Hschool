@@ -8,7 +8,8 @@ function Header() {
     <header>
       <div className='container'>
         <div className={HeaderStyle["header-wrapper"]}>
-          <p className={HeaderStyle.logo}>Hschool</p>
+          <Link to={'/'} href="#" className={HeaderStyle.logo}>Hschool</Link>
+          {/* <p className={HeaderStyle.logo}>Hschool</p> */}
           <div className={HeaderStyle["header-registration"]}>
             <Link to={'/login'} className={HeaderStyle.login}>Login →</Link>
             <Link to={'/register'} className={HeaderStyle.signUp}>Sign Up</Link>
